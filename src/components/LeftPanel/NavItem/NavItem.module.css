@@ -1,0 +1,16 @@
+li {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    list-style: none;
+    margin-bottom: 0.5rem;
+
+    & i {
+        margin-right: 1rem;
+    }
+
+    & a {
+        cursor: pointer;
+    }
+}
