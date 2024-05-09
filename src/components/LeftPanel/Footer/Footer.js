@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Footer.module.css";
-import avatar from "./user.jpg"; // Import your image file
+import avatar from "./user.jpg";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
         <p className={classes.name}>Doha Hmeid</p>
         <p>@doha.hmeid@gmail.com</p>
       </div>
-      <i class="bi bi-three-dots"></i>
+      <i className="bi bi-three-dots"></i>
     </div>
   );
 };

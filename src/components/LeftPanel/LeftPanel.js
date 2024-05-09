@@ -52,7 +52,7 @@ const NAVS = [
 ];
 
 const LeftPanel = () => {
-  //rendering the members list
+  //rendering the nav list
   const NAVS_LIST = NAVS.map((nav) => (
     <NavItem key={nav.id} name={nav.name} icon={nav.icon} />
   ));
