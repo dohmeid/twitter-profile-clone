@@ -5,17 +5,17 @@ import Suggestion from "./Suggestion/Suggestion";
 const suggestions = [
   {
     name: "Tailwind CSS",
-    userName: "tailwindcss",
+    userName: "@tailwindcss",
     photo: require("./pictures/tailwind.png"),
   },
   {
     name: "TypeScript",
-    userName: "typescript",
+    userName: "@typescript",
     photo: require("./pictures/typeScript.png"),
   },
   {
     name: "freeCodeCamp.org",
-    userName: "freeCodeCamp",
+    userName: "@freeCodeCamp",
     photo: require("./pictures/freeCodeCamp.png"),
   },
 ];

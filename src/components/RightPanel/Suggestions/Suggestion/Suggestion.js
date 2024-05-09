@@ -1,16 +1,17 @@
 import React from "react";
 import classes from "./Suggestion.module.css";
+import ProfileHeader from "../../../Shared/ProfileHeader/ProfileHeader";
+import FollowButton from "../../../Shared/FollowButton/FollowButton";
 
 const Suggestion = (props) => {
-
   return (
     <div className={classes.container}>
-      <img src={props.photo} alt="page profile picture" />
-      <div className={classes.profileDetails}>
-        <p className={classes.name}>{props.name}</p>
-        <p>{props.userName}</p>
-      </div>
-      <button>Follow</button>
+      <ProfileHeader
+        photo={props.photo}
+        name={props.name}
+        userName={props.userName}
+      />
+      <FollowButton />
     </div>
   );
 };

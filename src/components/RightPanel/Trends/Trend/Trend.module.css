@@ -1,0 +1,23 @@
+.container {
+    margin-bottom: 1rem;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header,
+    p {
+        font-size: 0.7rem;
+        color: var(--grey-shade);
+    }
+
+    h4 {
+        font-size: 0.9rem;
+        text-align: right;
+
+        background-color: rgb(134, 179, 164);
+    }
+
+}
