@@ -1,7 +1,7 @@
 :root {
-  --grey-shade: rgb(119, 118, 118);
-  --light-grey-shade: rgb(223, 221, 221);
-  --green-tick: #4CBB17;
+  --dark-grey-shade: #1e2125;
+  --grey-shade: rgb(152, 151, 151);
+  --blue-shade: #1D9BF0;
 }
 
 * {

@@ -1,0 +1,26 @@
+.searchContainer {
+    position: relative;
+    width: 100%;
+
+    & input[type="search"] {
+        border: none;
+        border-radius: 3rem;
+        height: 2.5rem;
+        width: 100%;
+        padding-left: 3rem;
+        padding-right: 1rem;
+        background-color: var(--dark-grey-shade);
+        color: var(--grey-shade);
+
+        &::placeholder {
+            opacity: 0.8;
+        }
+    }
+
+    & i {
+        position: absolute;
+        top: 8px;
+        left: 1rem;
+        color: var(--grey-shade);
+    }
+}

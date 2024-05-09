@@ -7,7 +7,7 @@
     border-right: 2px solid grey;
     display: flex;
     flex-direction: column;
- 
+
     & .twitterIcon {
         font-size: 1.5rem;
         width: 100%;
@@ -20,9 +20,8 @@
         padding: 1rem 0 1.3rem 0;
     }
 
-
     & button {
-        background-color: rgb(60, 158, 233);
+        background-color: var(--blue-shade);
         color: white;
         width: 100%;
         height: 2.8rem;
