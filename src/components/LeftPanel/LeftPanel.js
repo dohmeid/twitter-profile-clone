@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./LeftPanel.module.css";
 import NavItem from "./NavItem/NavItem";
+import Footer from "./Footer/Footer";
 
 const NAVS = [
   {
@@ -58,9 +59,10 @@ const LeftPanel = () => {
 
   return (
     <div className={classes.container}>
-      <i className= { `${classes.twitterIcon}  ${"bi bi-twitter-x"}`}></i>
+      <i className={`${classes.twitterIcon}  ${"bi bi-twitter-x"}`}></i>
       <ul>{NAVS_LIST}</ul>
       <button>Post</button>
+      <Footer />
     </div>
   );
 };

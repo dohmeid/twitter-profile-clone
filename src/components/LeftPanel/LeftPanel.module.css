@@ -1,20 +1,23 @@
 .container {
-    flex: 1 0 0;
+    height: 100%;
+    width: 15rem;
     color: white;
     padding-right: 1.2rem;
+    padding-left: 1rem;
     border-right: 2px solid grey;
-
+    display: flex;
+    flex-direction: column;
+ 
     & .twitterIcon {
         font-size: 1.5rem;
         width: 100%;
         display: inline-block;
         text-align: left;
-        padding-left: 1rem;
         padding-top: 0.5rem;
     }
 
     & ul {
-        padding: 1.5rem 0 2rem 1rem;
+        padding: 1rem 0 1.3rem 0;
     }
 
 
