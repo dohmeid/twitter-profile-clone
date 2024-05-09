@@ -6,4 +6,5 @@
     border-left: 2px solid grey;
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
 }

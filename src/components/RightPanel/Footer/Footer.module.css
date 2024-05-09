@@ -1,0 +1,14 @@
+.container {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    li {
+        margin-right: 0.5rem;
+        color: var(--grey-shade);
+        font-size: 0.7rem;
+        height: fit-content;
+    }
+}
