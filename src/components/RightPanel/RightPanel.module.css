@@ -1,10 +1,10 @@
 .container {
-    width: 40rem;
+    width: 45rem;
     height: 100%;
     color: white;
     padding: 1rem 5rem 1rem 1rem;
     border-left: 2px solid grey;
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
+    overflow-y: auto;
 }

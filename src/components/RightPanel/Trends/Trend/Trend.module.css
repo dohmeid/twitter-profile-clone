@@ -1,5 +1,5 @@
 .container {
-    margin-bottom: 1rem;
+    margin-bottom: 0.15rem;
 
     .header {
         display: flex;
@@ -30,5 +30,4 @@
         text-align: left;
         unicode-bidi: bidi-override;
     }
-
 }

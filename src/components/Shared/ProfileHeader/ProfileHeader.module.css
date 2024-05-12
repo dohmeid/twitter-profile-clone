@@ -4,16 +4,16 @@
     width: 100%;
    
     img {
-        width: 2.3rem;
-        height: 2.3rem;
+        width: 2.2rem;
+        height: 2.2rem;
         border-radius: 50%;
         border: none;
-        margin-right: 1rem;
+        margin-right: 0.8rem;
     }
 
     .profileDetails {
         width: 100%;
-        font-size: 0.9rem;
+        font-size: 0.85rem;
         text-align: left;
 
         .name {

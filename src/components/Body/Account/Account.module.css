@@ -1,6 +1,4 @@
 .container {
-    background-color: rgba(201, 224, 216, 0.152);
-
     header {
         display: flex;
         align-items: center;
@@ -30,7 +28,7 @@
         position: relative;
 
         .coverPhoto {
-            height: 15rem;
+            height: 12rem;
             width: 100%;
             background-image: url(../../../assets/react-cover.png);
             background-size: cover;
@@ -43,7 +41,7 @@
             border-radius: 50%;
             border: 0.5rem solid black;
             position: absolute;
-            top: 10rem;
+            top: 6.5rem;
             left: 2rem;
             background-image: url(../../../assets/react-profile.jpg);
             background-size: cover;
@@ -69,7 +67,6 @@
         color: white;
         text-align: left;
         padding-left: 2rem;
-        padding-top: 1rem;
         font-size: 0.8rem;
 
         h3 {
