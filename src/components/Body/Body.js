@@ -1,13 +1,15 @@
 import React from "react";
 import classes from "./Body.module.css";
 import Account from "./Account/Account";
-import Follow from "./Follow/Follow";
+import ProfileNavs from "./ProfileNavs/ProfileNavs";
+import WhoToFollow from "./WhoToFollow/WhoToFollow";
 
 const Body = () => {
   return (
     <div className={classes.container}>
       <Account />
-      <Follow/>
+      <ProfileNavs />
+      <WhoToFollow/>
     </div>
   );
 };

@@ -1,12 +1,11 @@
 import React from "react";
-import classes from "./FollowAccount.module.css";
+import classes from "./FollowRow.module.css";
 import ProfileHeader from "../../../Shared/ProfileHeader/ProfileHeader";
 import FollowButton from "../../../Shared/FollowButton/FollowButton";
 
-const FollowAccount = (props) => {
+const FollowRow = (props) => {
   return (
     <div className={classes.container}>
-
       <p className={classes.followers}>
         <i class="bi bi-person-fill"></i>
         {props.followers}
@@ -22,9 +21,8 @@ const FollowAccount = (props) => {
       </div>
 
       <p className={classes.headline}>{props.text}</p>
-      
     </div>
   );
 };
 
-export default FollowAccount;
+export default FollowRow;
