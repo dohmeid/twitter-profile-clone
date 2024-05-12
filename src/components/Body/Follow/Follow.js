@@ -41,7 +41,7 @@ const Follow = () => {
 
   return (
     <div className={classes.container}>
-      <h2>Who to follow</h2>
+      <h3>Who to follow</h3>
       <ul>{Suggestions_LIST}</ul>
       <a>Show more</a>
     </div>

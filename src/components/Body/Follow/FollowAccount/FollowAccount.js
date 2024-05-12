@@ -6,6 +6,7 @@ import FollowButton from "../../../Shared/FollowButton/FollowButton";
 const FollowAccount = (props) => {
   return (
     <div className={classes.container}>
+
       <p className={classes.followers}>
         <i class="bi bi-person-fill"></i>
         {props.followers}
@@ -21,6 +22,7 @@ const FollowAccount = (props) => {
       </div>
 
       <p className={classes.headline}>{props.text}</p>
+      
     </div>
   );
 };
