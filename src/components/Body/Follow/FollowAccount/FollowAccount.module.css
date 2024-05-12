@@ -1,0 +1,23 @@
+.container {
+    padding-bottom: 1.8rem;
+
+    .followers {
+        color: var(--grey-shade);
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+
+        i {
+            padding-right: 0.7rem;
+        }
+    }
+
+    .accountHeader {
+        display: flex;
+    }
+
+    .headline {
+        padding-left: 3.5rem;
+
+    }
+
+}
