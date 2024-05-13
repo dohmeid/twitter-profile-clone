@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Account.module.css";
-import userImage from "../../../assets/user.jpg";
+import userImage from "../../../assets/profilePicture/user.jpg";
 
 const Account = () => {
   return (
@@ -45,7 +45,6 @@ const Account = () => {
 
         <div className={classes.profileFollow}>
           <p>
-            {" "}
             <span>267</span> Following
           </p>
           <p>

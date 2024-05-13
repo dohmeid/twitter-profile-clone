@@ -1,10 +1,11 @@
 import React from "react";
 import classes from "./ProfileNavs.module.css";
-import userImage from "../../../assets/user.jpg";
+import userImage from "../../../assets/profilePicture/user.jpg";
 
 const ProfileNavs = () => {
   return (
     <div className={classes.container}>
+
       <ul className={classes.navs}>
         <li>Posts</li>
         <li>Replies</li>
@@ -13,6 +14,7 @@ const ProfileNavs = () => {
       </ul>
 
       <div className={classes.reposts}>
+
         <p className={classes.headline}>
           <i class="bi bi-arrow-repeat"></i>React reposted
         </p>
@@ -31,10 +33,9 @@ const ProfileNavs = () => {
             </p>
           </div>
         </div>
-
-        <ul>
+        
+        <ul className={classes.navIcons}>
           <li>
-            {" "}
             <i class="bi bi-chat"></i>46
           </li>
           <li>

@@ -1,6 +1,5 @@
 .container {
-    margin-bottom: 0.15rem;
-
+    
     .header {
         display: flex;
         justify-content: space-between;

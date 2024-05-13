@@ -1,8 +1,7 @@
-.container {
-    width: 45rem;
-    height: 100%;
+.rightPanel {
+    width: 50rem;
     color: white;
-    padding: 1rem 5rem 1rem 1rem;
+    padding: 1rem 5rem 0rem 1.5rem;
     border-left: 2px solid grey;
     display: flex;
     flex-direction: column;

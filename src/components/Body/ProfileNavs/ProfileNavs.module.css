@@ -19,7 +19,7 @@
     }
 
     .reposts {
-        padding: 1rem;
+        padding-top: 0.3rem;
         color: white;
         text-align: left;
 
@@ -36,7 +36,7 @@
 
         .repostProfile {
             display: flex;
-            padding-bottom: 1rem;
+            padding: 0.3rem 1rem 0.3rem 1rem;
 
             img {
                 width: 2.3rem;
@@ -48,6 +48,8 @@
 
             .profileNames {
                 display: flex;
+                position: relative;
+
 
                 .name {
                     font-weight: bold;
@@ -59,17 +61,16 @@
                 }
 
                 i {
+                    position: absolute;
                     color: var(--grey-shade);
-                    padding-left: 26rem;
+                    right: -100%;
+                 
                 }
 
                 p span {
                     color: var(--blue-shade);
                 }
             }
-
-
-
         }
     }
 }

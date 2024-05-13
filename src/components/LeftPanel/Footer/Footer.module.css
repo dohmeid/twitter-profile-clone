@@ -2,35 +2,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 105%;
-    width: 100%;
-
-    img {
-        width: 2.3rem;
-        height: 2.3rem;
-        border-radius: 50%;
-        border: none;
-        margin-right: 0.5rem;
-    }
-
-    .profileDetails {
-        width: 8.6rem;
-        font-size: 0.9rem;
-
-        .name {
-            font-weight: bold;
-        }
-
-        p {
-            text-align: left;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-        }
-    }
-
-    i {
-        font-size: 1.3rem;
-    }
-
+    padding-top: 14rem;
 }

@@ -7,7 +7,7 @@ import Footer from "./Footer/Footer";
 
 const RightPanel = () => {
   return (
-    <div className={classes.container}>
+    <div className={classes.rightPanel}>
       <SearchBar />
       <Suggestions />
       <Trends />

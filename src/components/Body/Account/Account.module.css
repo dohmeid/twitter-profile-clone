@@ -30,7 +30,7 @@
         .coverPhoto {
             height: 12rem;
             width: 100%;
-            background-image: url(../../../assets/react-cover.png);
+            background-image: url(../../../assets/coverPicture/react-cover.png);
             background-size: cover;
             background-position: center;
         }
@@ -43,7 +43,7 @@
             position: absolute;
             top: 6.5rem;
             left: 2rem;
-            background-image: url(../../../assets/react-profile.jpg);
+            background-image: url(../../../assets/profilePicture/react.jpg);
             background-size: cover;
             background-position: center;
         }

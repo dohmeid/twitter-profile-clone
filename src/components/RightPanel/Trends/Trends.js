@@ -7,9 +7,7 @@ const Trends = () => {
   const TREND_LIST = TRENDS.map((trend, index) => (
     <Trend
       key={index}
-      name={trend.name}
-      number={trend.number}
-      header={trend.header}
+      trend = {trend}
     />
   ));
 

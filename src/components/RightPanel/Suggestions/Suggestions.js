@@ -8,9 +8,7 @@ const Suggestions = () => {
   const Suggestions_LIST = ACCOUNT_PROFILES.map((suggestion, index) => (
     <Suggestion
       key={index}
-      name={suggestion.name}
-      userName={suggestion.userName}
-      photo={suggestion.photo}
+      suggestion={suggestion}
     />
   ));
 

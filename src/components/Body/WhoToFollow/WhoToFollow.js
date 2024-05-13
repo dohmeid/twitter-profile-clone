@@ -1,18 +1,14 @@
 import React from "react";
 import classes from "./WhoToFollow.module.css";
 import FollowRow from "./FollowRow/FollowRow";
-import { WHO_TO_FOLLOW } from "../../../data/profileLists";
+import { ACCOUNT_PROFILES } from "../../../data/profileLists";
 
 const WhoToFollow = () => {
   //rendering the members list
-  const Suggestions_LIST = WHO_TO_FOLLOW.map((suggestion, index) => (
+  const Suggestions_LIST = ACCOUNT_PROFILES.map((suggestion, index) => (
     <FollowRow
       key={index}
-      name={suggestion.name}
-      userName={suggestion.userName}
-      photo={suggestion.photo}
-      text={suggestion.text}
-      followers={suggestion.followers}
+      suggestion={suggestion}
     />
   ));
 
