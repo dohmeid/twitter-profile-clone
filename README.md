@@ -6,7 +6,9 @@ This project implements a simple mockup for a Twitter profile using ReactJS. (no
 
 -----
 ### :eye: Preview
-....
+You can access a live demo of this application here -> https://twitter-mock-up.netlify.app/ 
+
+![twitter-mock-up](https://github.com/dohmeid/twitter-profile-clone/assets/90987176/5485f4a6-0c3f-443c-ae27-3c0476f0fc37)
 
 -----
 ### :space_invader: Technologies Used
@@ -24,7 +26,7 @@ To run this application locally, follow these steps:
    ```
    git clone https://github.com/dohmeid/twitter-profile-clone.git
    ```
-2. Go to folder team-members-list-react
+2. Go to folder twitter-profile-clone
    ```
    cd twitter-profile-clone
    ```
