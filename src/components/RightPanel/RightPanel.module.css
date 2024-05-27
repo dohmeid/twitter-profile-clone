@@ -1,0 +1,9 @@
+.rightPanel {
+    width: 50rem;
+    color: white;
+    padding: 1rem 5rem 0rem 1.5rem;
+    border-left: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}

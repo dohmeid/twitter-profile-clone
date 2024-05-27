@@ -1,0 +1,32 @@
+.container {
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header,
+    p {
+        font-size: 0.7rem;
+        color: var(--grey-shade);
+    }
+
+    h4 {
+        font-size: 0.9rem;
+    }
+
+    .arabicText {
+        /*for arabic text*/
+        direction: rtl;
+        text-align: right;
+        unicode-bidi: bidi-override;
+    }
+
+    .normalText {
+        /*for english text*/
+        direction: ltr;
+        text-align: left;
+        unicode-bidi: bidi-override;
+    }
+}

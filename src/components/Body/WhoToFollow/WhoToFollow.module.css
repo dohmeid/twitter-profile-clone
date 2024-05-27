@@ -1,0 +1,14 @@
+.container {
+    text-align: left;
+    color: white;
+    padding: 0 1rem 1.5rem 1rem;
+
+    h3 {
+        padding-bottom: 0.7rem;
+    }
+
+    a {
+        color: var(--blue-shade);
+        font-size: 0.8rem;
+    }
+}
